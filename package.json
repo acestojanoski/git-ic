@@ -1,0 +1,48 @@
+{
+	"name": "git-ic",
+	"version": "1.0.0",
+	"description": "Git CLI helper for creating initial commits",
+	"bin": {
+		"git-ic": "cli.js"
+	},
+	"scripts": {
+		"prepublishOnly": "xo"
+	},
+	"author": "Aleksandar Stojanoski",
+	"license": "MIT",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org"
+	},
+	"homepage": "https://github.com/acestojanoski/git-ic#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/acestojanoski/git-ic.git"
+	},
+	"bugs": {
+		"url": "https://github.com/acestojanoski/git-ic/issues"
+	},
+	"keywords": [
+		"cli",
+		"git",
+		"commit",
+		"helper",
+		"git-commit",
+		"initial",
+		"initial commit",
+		"initial-commit",
+		"message"
+	],
+	"dependencies": {
+		"args-flagify": "^2.3.0",
+		"chalk": "^4.1.0"
+	},
+	"devDependencies": {
+		"xo": "^0.32.1"
+	},
+	"xo": {
+		"prettier": true,
+		"rules": {
+			"no-unused-vars": "warn"
+		}
+	}
+}
